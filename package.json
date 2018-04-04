@@ -1,0 +1,29 @@
+{
+  "name": "skyscanner-react-context",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "backpack-react-scripts": "5.0.10"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "lint:scss": "stylelint 'src/**/*.scss' --syntax scss",
+    "lint:scss:fix": "stylefmt --recursive 'src/**/*.scss'",
+    "lint:js": "eslint . --ignore-path .gitignore --ext .js,.jsx",
+    "lint:js:fix": "npm run lint:js -- --fix",
+    "lint": "npm run lint:js && npm run lint:scss",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "bpk-component-button": "2.0.13",
+    "bpk-component-code": "1.0.55",
+    "bpk-component-grid": "1.1.62",
+    "bpk-component-text": "1.0.53",
+    "bpk-mixins": "17.6.0",
+    "bpk-stylesheets": "3.2.99",
+    "react": "16.3.0",
+    "react-dom": "16.3.0"
+  }
+}
